@@ -1,0 +1,46 @@
+version: "3.9"
+
+# Production overrides — usage: docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: runtime
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4
+    volumes: []   # no bind mount in prod
+    environment:
+      ENV: production
+
+  worker:
+    build:
+      context: .
+      dockerfile: ./worker/Dockerfile
+    command: celery -A app.celery_app.celery_app worker --loglevel=warning --concurrency=8 -Q default,calls,sms
+    volumes: []
+
+  beat:
+    build:
+      context: .
+      dockerfile: ./worker/Dockerfile
+    volumes: []
+
+  nginx:
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro   # TLS certs
+
+  db:
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"  # must be set in CI/env
+
+volumes:
+  postgres_data:
+  redis_data:
+  chroma_data:

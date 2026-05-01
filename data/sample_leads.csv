@@ -1,0 +1,51 @@
+name,phone,email,age,city,language,custom_notes
+Ramesh Sharma,+919876543210,ramesh.sharma@example.com,62,Delhi,hi,Retired teacher interested in health seminars
+Sunita Devi,+919765432109,sunita.d@example.com,58,Mumbai,hi,Homemaker active in community events
+Arun Mehta,+919654321098,arun.m@example.com,65,Bangalore,kn,Former software engineer
+Priya Nair,+919543210987,priya.n@example.com,55,Chennai,ta,Business owner
+Vikram Patel,+919432109876,vikram.p@example.com,70,Ahmedabad,gu,Retired banker
+Meena Krishnan,+919321098765,meena.k@example.com,60,Hyderabad,te,Housewife interested in yoga
+Suresh Reddy,+919210987654,suresh.r@example.com,67,Hyderabad,te,Agricultural consultant
+Anita Bose,+919109876543,anita.b@example.com,53,Kolkata,bn,School principal
+Deepak Joshi,+918999876543,deepak.j@example.com,59,Pune,mr,Engineer
+Kavitha Menon,+918888765432,kavitha.m@example.com,63,Kochi,ml,Homemaker
+Prakash Iyer,+918777654321,prakash.i@example.com,68,Chennai,ta,Chartered accountant
+Lalitha Rao,+918666543210,lalitha.r@example.com,56,Mysore,kn,Doctor
+Mohan Das,+918555432109,mohan.d@example.com,72,Bhubaneswar,or,Retired government officer
+Usha Pillai,+918444321098,usha.p@example.com,57,Thiruvananthapuram,ml,Teacher
+Rajan Nambiar,+918333210987,rajan.n@example.com,64,Kozhikode,ml,Business owner
+Saritha Kumari,+918222109876,saritha.k@example.com,61,Patna,hi,Social worker
+Bharat Singh,+918111098765,bharat.s@example.com,66,Jaipur,hi,Farmer
+Geeta Mishra,+917999987654,geeta.m@example.com,54,Lucknow,hi,Homemaker
+Harish Chandra,+917888876543,harish.c@example.com,71,Varanasi,hi,Professor
+Indira Devi,+917777765432,indira.d@example.com,58,Patna,hi,Tailor
+Jayaram Pillai,+917666654321,jayaram.p@example.com,63,Trivandrum,ml,Retired naval officer
+Kamala Subramanian,+917555543210,kamala.s@example.com,69,Coimbatore,ta,Homemaker
+Laxman Reddy,+917444432109,laxman.r@example.com,55,Vijayawada,te,Business executive
+Madhu Balaji,+917333321098,madhu.b@example.com,60,Bangalore,kn,IT manager
+Nalini Shankar,+917222210987,nalini.sh@example.com,52,Mysore,kn,Lecturer
+Omkar Patil,+917111109876,omkar.p@example.com,67,Nashik,mr,Farmer
+Parvati Desai,+916999998765,parvati.d@example.com,74,Surat,gu,Retired nurse
+Quamar Shaikh,+916888887654,quamar.s@example.com,58,Mumbai,hi,Shop owner
+Rina Sen,+916777776543,rina.sen@example.com,53,Kolkata,bn,Accountant
+Sanjay Kumar,+916666665432,sanjay.k@example.com,65,Allahabad,hi,Retired army
+Taruna Verma,+916555554321,taruna.v@example.com,61,Chandigarh,hi,Nurse
+Uma Deshpande,+916444443210,uma.d@example.com,56,Nagpur,mr,Principal
+Varsha Gupta,+916333332109,varsha.g@example.com,70,Bhopal,hi,Homemaker
+Wasim Ahmed,+916222221098,wasim.a@example.com,57,Hyderabad,ur,Businessman
+Xavier D'Souza,+916111110987,xavier.d@example.com,62,Goa,en,Retired fisherman
+Yamini Bhat,+915999999876,yamini.b@example.com,59,Mangalore,kn,Homemaker
+Zara Khan,+915888888765,zara.k@example.com,55,Lucknow,ur,Fashion designer
+Abhijit Roy,+915777777654,abhijit.r@example.com,68,Kolkata,bn,Retired judge
+Brij Lal,+915666666543,brij.l@example.com,73,Agra,hi,Shopkeeper
+Chandra Shekhar,+915555555432,chandra.s@example.com,60,Kanpur,hi,Civil engineer
+Durgesh Pandey,+915444444321,durgesh.p@example.com,64,Varanasi,hi,Priest
+Elango Murugan,+915333333210,elango.m@example.com,58,Madurai,ta,Taxi driver
+Fathima Beevi,+915222222109,fathima.b@example.com,62,Calicut,ml,Homemaker
+Girish Nair,+915111111098,girish.n@example.com,55,Kochi,ml,Engineer
+Himadri Bhatt,+914999999987,himadri.b@example.com,69,Dehradun,hi,Retired teacher
+Indrani Chakraborty,+914888888876,indrani.c@example.com,57,Howrah,bn,Homemaker
+Jitendra Shah,+914777777765,jitendra.s@example.com,66,Surat,gu,Diamond merchant
+Kavya Namboodiri,+914666666654,kavya.n@example.com,53,Thrissur,ml,Doctor
+Lokesh Badiger,+914555555543,lokesh.b@example.com,71,Hubli,kn,Retired principal
+Manoj Tiwari,+914444444432,manoj.t@example.com,61,Gorakhpur,hi,Politician
